@@ -2,6 +2,9 @@
 
 Terraform module to notify on AWS Secrets Manager rotation events using EventBridge and SNS.
 
+## High-Level Architecture Diagram
+![Architecture](./media/high-level-arch-diagram.png)
+
 ## What it does
 - Creates an SNS topic and email subscriptions
 - Creates an EventBridge rule for Secrets Manager rotation success events
