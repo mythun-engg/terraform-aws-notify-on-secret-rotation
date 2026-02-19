@@ -18,7 +18,7 @@ Terraform module to notify on AWS Secrets Manager rotation events using EventBri
 ## Usage
 ```hcl
 module "notify_on_secret_rotation" {
-  source = "../terraform-aws-notify-on-secret-rotation"
+  source = "git::https://github.com/mythun-engg/terraform-aws-notify-on-secret-rotation.git?ref=0.0.1"
 
   topic_name = "secret-rotation-topic"
 
